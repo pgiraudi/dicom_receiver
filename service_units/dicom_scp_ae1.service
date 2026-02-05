@@ -1,0 +1,16 @@
+[Unit]
+Description=DICOM SCP ECO
+After=network.target
+
+[Service]
+Type=simple
+# Activamos el entorno virtual antes de correr el script
+ExecStart=/home/admincmr/venv/bin/python /home/admincmr/dicom-receiver/start_scp_instance.py ECO
+WorkingDirectory=/home/usuario/dicom
+Restart=always
+User=admincmr
+Group=admincmr
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

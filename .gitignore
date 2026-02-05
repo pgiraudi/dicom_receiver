@@ -1,0 +1,13 @@
+.gitignore para Python
+Entornos virtuales
+venv/ .venv/ env/ .env/
+
+IDEs (PyCharm, VS Code)
+.idea/ .vscode/
+
+Cache de Python
+**/pycache/ *.py[cod] *$py.class
+
+Otros
+.DS_Store
+*.log

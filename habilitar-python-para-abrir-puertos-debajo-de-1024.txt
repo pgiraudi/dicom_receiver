@@ -1,0 +1,4 @@
+sudo setcap 'cap_net_bind_service=+ep' /usr/bin/python3.12
+verificar con
+getcap /usr/bin/python3.12
+

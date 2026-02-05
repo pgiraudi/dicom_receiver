@@ -1,0 +1,68 @@
+[
+  {
+    "ae_title": "ECO",
+    "port": 216,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "eco.log"
+  },
+  {
+    "ae_title": "eco2",
+    "port": 401,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "eco2.log"
+  },
+  {
+    "ae_title": "ECO3",
+    "port": 217,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "eco3.log"
+  },
+  {
+    "ae_title": "ECO4",
+    "port": 218,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "eco4.log"
+  },
+  {
+    "ae_title": "ECO5",
+    "port": 219,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "eco5.log"
+  },
+  {
+    "ae_title": "MAMO",
+    "port": 220,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "mamo.log"
+  },
+  {
+    "ae_title": "RESO",
+    "port": 205,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "reso.log"
+  },
+  {
+    "ae_title": "RESOMASCARDI",
+    "port": 215,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "resomascardi.log"
+  },
+  {
+    "ae_title": "RX",
+    "port": 206,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "rx.log"
+  },
+  {
+    "ae_title": "RX2",
+    "port": 207,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "rx2.log"
+  },
+  {
+    "ae_title": "TOMO",
+    "port": 204,
+    "output_dir": "DICOM_6/e_dicom",
+    "log_file": "tomo.log"
+  }
+]

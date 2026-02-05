@@ -1,0 +1,18 @@
+[Unit]
+Description=DICOM SCP RX
+After=network.target network-online.target
+Wants=network-online.target
+# Asegura que el punto exista montado antes de arrancar
+#RequiresMountsFor=/home/admincmr/dicom_receiver/DICOM_6
+[Service]
+Type=simple
+# Activamos el entorno virtual antes de correr el script
+ExecStart=/home/admincmr/dicom_receiver/venv/bin/python /home/admincmr/dicom_receiver/start_scp_instance.py RX
+WorkingDirectory=/home/admincmr/dicom_receiver
+Restart=always
+User=admincmr
+Group=admincmr
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

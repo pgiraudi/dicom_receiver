@@ -1,0 +1,6 @@
+sudo systemctl daemon-reload                # cargar cambios
+sudo systemctl enable dicomscp-ae1.service  # activar en el arranque
+sudo systemctl start dicomscp-ae1.service   # iniciar
+sudo systemctl status dicomscp-ae1.service  # ver estado
+sudo journalctl -u dicomscp-ae1 -f          # seguir logs
+sudo systemctl stop dicomscp-ae1.service    # detener
