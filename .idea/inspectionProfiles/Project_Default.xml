@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="clipboard" />
+          <option value="mysql-connector-python" />
+          <option value="openai" />
+          <option value="PyAudio" />
+          <option value="pydicom" />
+          <option value="pynetdicom" />
+          <option value="python-dotenv" />
+          <option value="qrcode" />
+          <option value="reportlab" />
+          <option value="Requests" />
+          <option value="Unidecode" />
+          <option value="wxPython" />
+          <option value="xlwt" />
+          <option value="mysql_connector_repackaged" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
