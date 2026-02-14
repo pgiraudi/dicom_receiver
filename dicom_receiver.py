@@ -189,8 +189,8 @@ class DICOMReceiver:
     
     def Conectar(self):
         try:
-            db = mysql.connector.connect(host='192.168.0.240', user='mantenimiento', password='cambio18',
-            database='clinik',port=3306, use_unicode=True, buffered=True)
+            db = mysql.connector.connect(host='192.168.0.49', user='mantenimiento', password='cambio18',
+            database='clinik',port=5926, use_unicode=True, buffered=True)
             return db
         except mysql.connector.Error as err:
             msg = err.msg
